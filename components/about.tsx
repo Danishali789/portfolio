@@ -34,20 +34,26 @@ export default function About() {
           <div
             className={`space-y-6 transition-all duration-700 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}
           >
-            <p className="text-lg text-foreground/70 leading-relaxed">
-              I'm a passionate Frontend Developer with 2+ years of experience building scalable, responsive web
-              applications. I specialize in creating pixel-perfect user interfaces with a strong focus on performance
-              and accessibility.
-            </p>
-            <p className="text-lg text-foreground/70 leading-relaxed">
-              My journey in web development started with a deep fascination for creating beautiful digital experiences.
-              At <span className="font-semibold text-accent">Net Solutions</span>, I've led the development of multiple
-              high-impact projects, collaborating with designers and backend teams to deliver exceptional results.
-            </p>
-            <p className="text-lg text-foreground/70 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
-              enjoying the latest advancements in web development.
-            </p>
+             <p className="text-lg text-foreground/70 leading-relaxed">
+    I’m a Frontend Engineer with 3+ years of experience building scalable, production-grade web
+    applications using <span className="font-semibold">React.js</span> and{" "}
+    <span className="font-semibold">Next.js</span>. My work focuses on component architecture,
+    state management, API integration, and performance optimization to deliver reliable and
+    maintainable applications.
+  </p>
+
+  <p className="text-lg text-foreground/70 leading-relaxed">
+    At <span className="font-semibold text-accent">Net Solutions</span>, I’ve worked on complex
+    frontend systems, translating business requirements into clean, reusable React components.
+    I collaborate closely with backend engineers to integrate REST and GraphQL APIs, handle
+    application state efficiently, and build SEO-friendly, server-rendered pages.
+  </p>
+
+  <p className="text-lg text-foreground/70 leading-relaxed">
+    I enjoy working on challenging frontend problems such as performance tuning, code
+    maintainability, and improving developer experience. Outside of daily work, I actively
+    explore modern React patterns, Next.js features, and best practices in frontend engineering.
+  </p>
           </div>
 
           <div
@@ -58,7 +64,7 @@ export default function About() {
             <div className="absolute inset-4 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-xl backdrop-blur-sm flex items-center justify-center">
               <div className="text-center space-y-4">
                 <div className="text-6xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  2+
+                  3+
                 </div>
                 <p className="text-foreground/70 font-medium">Years of Experience</p>
                 <div className="pt-4 border-t border-border/40">

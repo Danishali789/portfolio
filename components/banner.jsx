@@ -49,9 +49,15 @@ export default function Banner() {
               className="text-base sm:text-lg text-foreground/70 leading-relaxed animate-slide-up"
               style={{ animationDelay: "0.1s" }}
             >
-              I craft accessible, scalable, and visually stunning web experiences using React, Next.js, and modern web
-              technologies. With 2+ years of professional experience, I'm passionate about delivering high-quality
-              solutions that combine beautiful design with solid engineering.
+              Frontend Developer with 3+ years of experience in building
+              scalable, responsive, and high-performance web applications using
+              React.js and Next.js. Strong expertise in JavaScript (ES6+),
+              TypeScript, Redux Toolkit, and modern UI frameworks like Tailwind
+              CSS. Experienced in developing reusable UI components,
+              implementing state management, and integrating RESTful and GraphQL
+              APIs using Axios. Comfortable working in Agile environments, collaborating
+              with backend developers, designers, and product teams to deliver
+              high-quality features on time.
             </p>
 
             <div className="space-y-3 animate-slide-up" style={{ animationDelay: "0.2s" }}>
